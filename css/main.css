@@ -30,7 +30,7 @@ span {
   text-transform: uppercase;
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1024px) {
   h1 {
     font-size: 3rem;
   }
@@ -132,7 +132,7 @@ body {
   letter-spacing: .1rem;
 }
 
-@media (min-width: 639px) and (max-width: 1439px) {
+@media (min-width: 639px) and (max-width: 1023px) {
   .card-container {
     max-width: 40rem;
   }
@@ -152,9 +152,9 @@ body {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .card-container {
-    width: 80%;
+    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -211,7 +211,7 @@ body {
     font-size: 2rem;
   }
   .stats p {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
