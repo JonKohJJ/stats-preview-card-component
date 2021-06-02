@@ -1,0 +1,97 @@
+@import 'colors';
+@import 'fonts';
+@import 'defaults';
+
+
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+
+    background-color: $bg-main;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-container{
+    background-color: $bg-card;
+
+    border-radius: 7px;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.image{
+    position: relative;
+
+    & img{
+        display: block;
+        border-radius: 7px 7px 0 0;
+    }
+}
+
+
+
+.overlay{
+    background: $accent;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    opacity: 0.5;
+
+    border-radius: 7px 7px 0 0;
+}
+
+
+
+.inner-content{
+
+    text-align: center;
+    padding: 3rem 2rem;
+
+    & > h1{
+        margin-bottom: 1rem;
+    }
+
+    & > p{
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+}
+
+
+
+.stats {
+
+    & div:not(:last-child){
+        // outline: 1px solid yellow;
+        margin-bottom: 1rem;
+    }
+
+    & h1{
+        font-size: 1.6rem;
+    }
+
+    & p{
+        font-size: .75rem;
+        letter-spacing: .1rem;
+    }
+}
+
+
+
+
+@import 'view_tablet';
+@import 'view_desktop';

@@ -1,0 +1,18 @@
+@media (min-width: 639px) and (max-width: 1439px){
+
+    .card-container{
+        max-width: 40rem;
+    }
+
+    .stats {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 75%;
+        margin: 0 auto;
+
+        padding-top: 1rem;
+    }
+}

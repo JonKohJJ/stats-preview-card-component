@@ -1,0 +1,47 @@
+@import 'colors';
+
+/* FONTS */
+h1{
+    /* default font size */
+    font-size: 2rem;
+    color: $font-primary;
+}
+
+h2{
+    /* default font size */
+    font-size: 1.5rem;
+}
+
+button{
+    font-size: 1rem;
+}
+
+p{
+    /* default font size */
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: $font-secondary;
+}
+
+// insight word
+span{
+    color: $accent;
+}
+
+// stats p
+.stats p{
+    color: $font-stats-heading;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 1439px){
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
